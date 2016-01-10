@@ -19,8 +19,8 @@
 		</snapshotRepository>
 	</distributionManagement>
 	<scm>
-		<connection>scm:git:ssh://git@github.com:niallthomson/JavaVPK.git</connection>
-		<developerConnection>scm:git:ssh://git@github.com:niallthomson/JavaVPK.git</developerConnection>
+		<connection>scm:git:ssh://git@github.com/niallthomson/JavaVPK.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/niallthomson/JavaVPK.git</developerConnection>
 		<url>https://github.com/niallthomson/JavaVPK</url>
 		<tag>HEAD</tag>
 	</scm>
