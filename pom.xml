@@ -26,6 +26,7 @@
 		<tag>HEAD</tag>
 	</scm>
 	<build>
+		<sourceDirectory>src</sourceDirectory>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -33,9 +34,6 @@
 				<configuration>
 					<source>${java-version}</source>
 					<target>${java-version}</target>
-					<sourceIncludes>
-						<sourceInclude>src/**</sourceInclude>
-					</sourceIncludes>
 				</configuration>
 			</plugin>
 			<plugin>
